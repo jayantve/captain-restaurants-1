@@ -2,6 +2,9 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { FaHome , FaSearch } from "react-icons/fa";
+import { MdRestaurantMenu } from "react-icons/md";
+import { IoCall } from "react-icons/io5";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,25 +19,25 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-amber-600 cursor-pointer" style={{ fontFamily: 'var(--font-pacifico)' }}>
-            Captain Restaurant
+            {process.env.NEXT_PUBLIC_NAME}
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors cursor-pointer">
-              Home
+            <Link href="/" className="flex text-orange-500 hover:text-orange-700 transition-colors cursor-pointer">
+              <FaHome className='text-xl mx-1' /> Home
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-amber-600 transition-colors cursor-pointer">
+            <Link href="/about" className="flex text-orange-500 hover:text-orange-700 transition-colors cursor-pointer">
               About
             </Link>
-            <Link href="/menu" className="text-gray-700 hover:text-amber-600 transition-colors cursor-pointer">
-              Menu
+            <Link href="/menu" className="flex text-orange-500 hover:text-orange-700 transition-colors cursor-pointer">
+              <MdRestaurantMenu className='text-xl mx-1' /> Menu
             </Link>
-            <Link href="/search" className="text-gray-700 hover:text-amber-600 transition-colors cursor-pointer">
-              Search
+            <Link href="/search" className="flex text-orange-500 hover:text-orange-700 transition-colors cursor-pointer">
+              <FaSearch className='text-md mx-1' /> Search
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-amber-600 transition-colors cursor-pointer">
-              Contact
+            <Link href="/contact" className="flex text-orange-500 hover:text-orange-700 transition-colors cursor-pointer">
+              <IoCall className='text-md mx-1' /> Contact
             </Link>
           </nav>
 
