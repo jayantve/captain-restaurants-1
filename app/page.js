@@ -1,103 +1,202 @@
-import Image from "next/image";
+'use client';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="min-h-screen bg-white">
+      
+      {/* Hero Section */}
+      <section 
+        className="relative h-screen bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://readdy.ai/api/search-image?query=elegant%20restaurant%20interior%20with%20warm%20lighting%2C%20wooden%20tables%2C%20comfortable%20seating%2C%20large%20windows%2C%20modern%20Italian%20restaurant%20atmosphere%2C%20sophisticated%20dining%20room%20with%20ambient%20lighting%2C%20high-end%20restaurant%20decor%20with%20neutral%20colors%20and%20natural%20materials&width=1920&height=1080&seq=hero-restaurant&orientation=landscape')`
+        }}
+      >
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white max-w-4xl mx-auto px-4">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6" style={{ fontFamily: 'var(--font-pacifico)' }}>
+              Welcome to {process.env.NEXT_PUBLIC_NAME}
+            </h1>
+            <p className="text-xl md:text-2xl mb-8 text-gray-100">
+              Experience authentic Indian cuisine crafted with passion and served with love
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link 
+                href="/menu" 
+                className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-colors cursor-pointer whitespace-nowrap"
+              >
+                View Our Menu
+              </Link>
+              <Link 
+                href="/contact" 
+                className="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-full text-lg font-semibold transition-colors cursor-pointer whitespace-nowrap"
+              >
+                Make Reservation
+              </Link>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Why Choose {process.env.NEXT_PUBLIC_NAME}?
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              We pride ourselves on delivering an exceptional dining experience with fresh ingredients, 
+              traditional recipes, and impeccable service.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center bg-white p-8 rounded-lg shadow-md">
+              <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i className="ri-restaurant-line text-2xl text-amber-600"></i>
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Fresh Ingredients</h3>
+              <p className="text-gray-600">
+                We source the finest ingredients daily from local suppliers to ensure every dish 
+                is made with the freshest produce and highest quality meats.
+              </p>
+            </div>
+
+            <div className="text-center bg-white p-8 rounded-lg shadow-md">
+              <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i className="ri-chef-hat-line text-2xl text-amber-600"></i>
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Expert Chefs</h3>
+              <p className="text-gray-600">
+                Our skilled chefs bring decades of experience in Italian cuisine, combining 
+                traditional techniques with modern culinary innovations.
+              </p>
+            </div>
+
+            <div className="text-center bg-white p-8 rounded-lg shadow-md">
+              <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i className="ri-heart-line text-2xl text-amber-600"></i>
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Warm Atmosphere</h3>
+              <p className="text-gray-600">
+                Enjoy your meal in our cozy, welcoming environment designed to make every 
+                guest feel like family in our Italian home.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Signature Dishes Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Our Signature Dishes
+            </h2>
+            <p className="text-xl text-gray-600">
+              Discover our most beloved creations that keep guests coming back for more
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="h-48 bg-cover bg-center" style={{
+                backgroundImage: `url('https://readdy.ai/api/search-image?query=delicious%20homemade%20pasta%20carbonara%20with%20crispy%20pancetta%2C%20creamy%20sauce%2C%20fresh%20parmesan%20cheese%2C%20elegant%20white%20plate%20presentation%2C%20professional%20food%20photography%2C%20warm%20restaurant%20lighting%2C%20Italian%20cuisine&width=400&height=300&seq=carbonara-dish&orientation=landscape')`
+              }}></div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Pasta Carbonara</h3>
+                <p className="text-gray-600 mb-4">
+                  Traditional Roman pasta with crispy pancetta, farm-fresh eggs, 
+                  and aged Pecorino Romano cheese.
+                </p>
+                <div className="flex justify-between items-center">
+                  <span className="text-2xl font-bold text-amber-600">$18</span>
+                  <Link 
+                    href="/menu/pasta-carbonara"
+                    className="text-amber-600 hover:text-amber-700 font-semibold cursor-pointer"
+                  >
+                    Learn More →
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="h-48 bg-cover bg-center" style={{
+                backgroundImage: `url('https://readdy.ai/api/search-image?query=wood-fired%20margherita%20pizza%20with%20fresh%20mozzarella%2C%20basil%20leaves%2C%20tomato%20sauce%2C%20crispy%20crust%2C%20authentic%20Italian%20pizza%20presentation%2C%20professional%20food%20photography%2C%20warm%20restaurant%20lighting&width=400&height=300&seq=margherita-pizza&orientation=landscape')`
+              }}></div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Margherita Pizza</h3>
+                <p className="text-gray-600 mb-4">
+                  Classic Neapolitan pizza with San Marzano tomatoes, 
+                  fresh mozzarella, and aromatic basil leaves.
+                </p>
+                <div className="flex justify-between items-center">
+                  <span className="text-2xl font-bold text-amber-600">$16</span>
+                  <Link 
+                    href="/menu/margherita-pizza"
+                    className="text-amber-600 hover:text-amber-700 font-semibold cursor-pointer"
+                  >
+                    Learn More →
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="h-48 bg-cover bg-center" style={{
+                backgroundImage: `url('https://readdy.ai/api/search-image?query=classic%20tiramisu%20dessert%20with%20mascarpone%20cheese%2C%20ladyfinger%20cookies%2C%20espresso%2C%20cocoa%20powder%20dusting%2C%20elegant%20dessert%20presentation%2C%20professional%20food%20photography%2C%20warm%20restaurant%20lighting%2C%20Italian%20dessert&width=400&height=300&seq=tiramisu-dessert&orientation=landscape')`
+              }}></div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Tiramisu</h3>
+                <p className="text-gray-600 mb-4">
+                  The perfect end to your meal - layers of espresso-soaked 
+                  ladyfingers and rich mascarpone cream.
+                </p>
+                <div className="flex justify-between items-center">
+                  <span className="text-2xl font-bold text-amber-600">$9</span>
+                  <Link 
+                    href="/menu/tiramisu"
+                    className="text-amber-600 hover:text-amber-700 font-semibold cursor-pointer"
+                  >
+                    Learn More →
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action Section */}
+      <section className="py-20 bg-amber-600">
+        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            Ready to Dine With Us?
+          </h2>
+          <p className="text-xl text-amber-100 mb-8">
+            Join us for an unforgettable culinary experience. Reserve your table today 
+            and taste the difference of authentic Italian cuisine.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link 
+              href="/contact"
+              className="bg-white text-amber-600 hover:bg-gray-100 px-8 py-3 rounded-full text-lg font-semibold transition-colors cursor-pointer whitespace-nowrap"
+            >
+              Make a Reservation
+            </Link>
+            <Link 
+              href="/menu"
+              className="border-2 border-white text-white hover:bg-white hover:text-amber-600 px-8 py-3 rounded-full text-lg font-semibold transition-colors cursor-pointer whitespace-nowrap"
+            >
+              Browse Menu
+            </Link>
+          </div>
+        </div>
+      </section>
+      
     </div>
   );
 }

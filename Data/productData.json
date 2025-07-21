@@ -1,0 +1,672 @@
+[
+  {
+    "id": "aloo-gobhi",
+    "name": "Aloo Gobhi",
+    "description": "A classic North Indian dish with cauliflower and potatoes cooked with aromatic spices.",
+    "price": 229,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/aloo-gobhi.jpg",
+    "link": "/menu/detail/aloo-gobhi",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Curry", "Potato", "Cauliflower", "Spicy"]
+  },
+  {
+    "id": "dal-tadka",
+    "name": "Dal Tadka",
+    "description": "Yellow lentils tempered with ghee, cumin, garlic, and chilies.",
+    "price": 199,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/dal-tadka.jpg",
+    "link": "/menu/detail/dal-tadka",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Dal", "Lentils", "Comfort Food"]
+  },
+  {
+    "id": "dal-makhani",
+    "name": "Dal Makhani",
+    "description": "Black lentils slow-cooked with butter, cream, and a blend of spices, a rich and creamy delicacy.",
+    "price": 249,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/dal-makhani.jpg",
+    "link": "/menu/detail/dal-makhani",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Dal", "Lentils", "Creamy", "Butter", "Comfort Food"]
+  },
+  {
+    "id": "paneer-bhujiya",
+    "name": "Paneer Bhujiya",
+    "description": "Scrambled paneer (Indian cottage cheese) cooked with onions, tomatoes, and spices.",
+    "price": 269,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/paneer-bhujiya.jpg",
+    "link": "/menu/detail/paneer-bhujiya",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Paneer", "Bhurji", "Spicy"]
+  },
+  {
+    "id": "mix-veg",
+    "name": "Mix Veg",
+    "description": "A medley of seasonal vegetables cooked in a flavorful gravy.",
+    "price": 249,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/mix-veg.jpg",
+    "link": "/menu/detail/mix-veg",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Gravy", "Spicy"]
+  },
+  {
+    "id": "matar-mushroom",
+    "name": "Matar Mushroom",
+    "description": "Mushrooms and green peas cooked in a rich and aromatic gravy.",
+    "price": 279,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/matar-mushroom.jpg",
+    "link": "/menu/detail/matar-mushroom",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Mushroom", "Peas", "Gravy", "Spicy"]
+  },
+  {
+    "id": "mushroom-do-pyaz",
+    "name": "Mushroom Do Pyaz",
+    "description": "Mushrooms cooked with a generous amount of onions in a semi-dry gravy.",
+    "price": 279,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/mushroom-do-pyaz.jpg",
+    "link": "/menu/detail/mushroom-do-pyaz",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Mushroom", "Do Pyaza", "Gravy", "Spicy"]
+  },
+  {
+    "id": "malai-kofta",
+    "name": "Malai Kofta",
+    "description": "Soft paneer and potato dumplings in a rich, creamy, and mildly sweet gravy.",
+    "price": 289,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/malai-kofta.jpg",
+    "link": "/menu/detail/malai-kofta",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Paneer", "Kofta", "Creamy", "Sweet", "Gravy"]
+  },
+  {
+    "id": "paneer-do-pyaza",
+    "name": "Paneer Do Pyaza",
+    "description": "Paneer cooked with plenty of onions, both sliced and diced, in a flavorful gravy.",
+    "price": 289,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/paneer-do-pyaza.jpg",
+    "link": "/menu/detail/paneer-do-pyaza",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Paneer", "Do Pyaza", "Gravy", "Spicy"]
+  },
+  {
+    "id": "palak-paneer",
+    "name": "Palak Paneer",
+    "description": "Cubes of paneer cooked in a creamy and nutritious spinach gravy.",
+    "price": 289,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/palak-paneer.jpg",
+    "link": "/menu/detail/palak-paneer",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Paneer", "Spinach", "Creamy", "Gravy", "Nutritious"]
+  },
+  {
+    "id": "paneer-butter-masala",
+    "name": "Paneer Butter Masala",
+    "description": "A popular Indian dish made with paneer in a rich, creamy, and buttery tomato-based gravy.",
+    "price": 289,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/paneer-butter-masala.jpg",
+    "link": "/menu/detail/paneer-butter-masala",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Paneer", "Butter", "Creamy", "Gravy", "Spicy"]
+  },
+  {
+    "id": "kadhai-paneer",
+    "name": "Kadhai Paneer",
+    "description": "Paneer cooked with bell peppers, onions, and fresh ground spices in a traditional kadhai (wok).",
+    "price": 289,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/kadhai-paneer.jpg",
+    "link": "/menu/detail/kadhai-paneer",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Paneer", "Kadhai", "Spicy"]
+  },
+  {
+    "id": "paneer-lababdar",
+    "name": "Paneer Lababdar",
+    "description": "Paneer cooked in a rich, creamy, and slightly tangy tomato-onion gravy.",
+    "price": 289,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/paneer-lababdar.jpg",
+    "link": "/menu/detail/paneer-lababdar",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Paneer", "Lababdar", "Creamy", "Tangy", "Gravy", "Spicy"]
+  },
+  {
+    "id": "matar-paneer",
+    "name": "Matar Paneer",
+    "description": "Paneer and green peas cooked in a spicy and flavorful tomato-based gravy.",
+    "price": 289,
+    "categories": ["all","Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/matar-paneer.jpg",
+    "link": "/menu/detail/matar-paneer",
+    "tags": ["Veg", "Vegetarian", "Indian", "Main Course", "Paneer", "Peas", "Gravy", "Spicy"]
+  },
+  {
+    "id": "egg-bhurji",
+    "name": "Egg Bhurji",
+    "description": "Scrambled eggs cooked with onions, tomatoes, and Indian spices.",
+    "price": 199,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/egg-bhurji.jpg",
+    "link": "/menu/detail/egg-bhurji",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Egg", "Bhurji", "Spicy"]
+  },
+  {
+    "id": "egg-curry-2-pcs",
+    "name": "Egg Curry (2 Pcs)",
+    "description": "Boiled eggs simmered in a rich and aromatic onion-tomato gravy.",
+    "price": 229,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/egg-curry-2-pcs.jpg",
+    "link": "/menu/detail/egg-curry-2-pcs",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Egg", "Curry", "Gravy", "Spicy"]
+  },
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "description": "Tender chicken pieces cooked in a rich, creamy, and buttery tomato gravy, a global favorite.",
+    "price": 329,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/butter-chicken.jpg",
+    "link": "/menu/detail/butter-chicken",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Chicken", "Butter", "Creamy", "Gravy", "Spicy"]
+  },
+  {
+    "id": "kadhai-chicken",
+    "name": "Kadhai Chicken",
+    "description": "Chicken cooked with bell peppers, onions, and freshly ground spices in a traditional kadhai (wok).",
+    "price": 299,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/kadhai-chicken.jpg",
+    "link": "/menu/detail/kadhai-chicken",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Chicken", "Kadhai", "Spicy"]
+  },
+  {
+    "id": "ginger-chicken-gravy",
+    "name": "Ginger Chicken Gravy",
+    "description": "Chicken cooked in a robust gravy with a prominent flavor of fresh ginger.",
+    "price": 299,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/ginger-chicken-gravy.jpg",
+    "link": "/menu/detail/ginger-chicken-gravy",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Chicken", "Ginger", "Gravy", "Spicy"]
+  },
+  {
+    "id": "chicken-lababdar",
+    "name": "Chicken Lababdar",
+    "description": "Chicken cooked in a rich, creamy, and slightly tangy tomato-onion gravy, a chef's special.",
+    "price": 299,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-lababdar.jpg",
+    "link": "/menu/detail/chicken-lababdar",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Chicken", "Lababdar", "Creamy", "Tangy", "Gravy", "Spicy"]
+  },
+  {
+    "id": "chicken-curry",
+    "name": "Chicken Curry",
+    "description": "Homestyle chicken curry cooked in a traditional Indian spiced gravy.",
+    "price": 299,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-curry.jpg",
+    "link": "/menu/detail/chicken-curry",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Chicken", "Curry", "Gravy", "Spicy", "Homestyle"]
+  },
+  {
+    "id": "chicken-do-pyaza",
+    "name": "Chicken Do Pyaza",
+    "description": "Chicken cooked with a generous amount of onions, both sliced and diced, in a semi-dry gravy.",
+    "price": 299,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-do-pyaza.jpg",
+    "link": "/menu/detail/chicken-do-pyaza",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Chicken", "Do Pyaza", "Gravy", "Spicy"]
+  },
+  {
+    "id": "chicken-kali-mirch",
+    "name": "Chicken Kali Mirch",
+    "description": "Chicken cooked in a creamy and spicy gravy with a dominant flavor of black pepper.",
+    "price": 299,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-kali-mirch.jpg",
+    "link": "/menu/detail/chicken-kali-mirch",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Chicken", "Creamy", "Spicy", "Black Pepper", "Gravy"]
+  },
+  {
+    "id": "chicken-changezi",
+    "name": "Chicken Changezi",
+    "description": "Roasted chicken pieces cooked in a rich, spicy, and smoky gravy, inspired by Mughal cuisine.",
+    "price": 309,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-changezi.jpg",
+    "link": "/menu/detail/chicken-changezi",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Chicken", "Changezi", "Spicy", "Smoky", "Gravy", "Mughlai"]
+  },
+  {
+    "id": "rara-chicken",
+    "name": "Rara Chicken",
+    "description": "A unique blend of chicken pieces and chicken keema (minced chicken) cooked in a thick, spicy gravy.",
+    "price": 309,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/rara-chicken.jpg",
+    "link": "/menu/detail/rara-chicken",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Chicken", "Rara", "Gravy", "Spicy"]
+  },
+  {
+    "id": "handi-chicken",
+    "name": "Handi Chicken",
+    "description": "Chicken cooked slowly in a traditional earthen pot (handi) with aromatic spices, resulting in tender meat.",
+    "price": 319,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/handi-chicken.jpg",
+    "link": "/menu/detail/handi-chicken",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Chicken", "Handi", "Spicy", "Gravy"]
+  },
+  {
+    "id": "fish-curry",
+    "name": "Fish Curry",
+    "description": "Pieces of fish simmered in a tangy and spicy Indian curry.",
+    "price": 349,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/fish-curry.jpg",
+    "link": "/menu/detail/fish-curry",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Fish", "Curry", "Tangy", "Spicy", "Gravy"]
+  },
+  {
+    "id": "rara-mutton",
+    "name": "Rara Mutton",
+    "description": "A rich and robust dish featuring tender mutton pieces and mutton keema (minced mutton) in a flavorful gravy.",
+    "price": 349,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/rara-mutton.jpg",
+    "link": "/menu/detail/rara-mutton",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Mutton", "Rara", "Gravy", "Spicy"]
+  },
+  {
+    "id": "mutton-rogan-josh",
+    "name": "Mutton Rogan Josh",
+    "description": "A signature Kashmiri mutton curry characterized by its rich red color and aromatic spices.",
+    "price": 349,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/mutton-rogan-josh.jpg",
+    "link": "/menu/detail/mutton-rogan-josh",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Mutton", "Rogan Josh", "Curry", "Spicy", "Gravy", "Kashmiri"]
+  },
+  {
+    "id": "kadhai-mutton",
+    "name": "Kadhai Mutton",
+    "description": "Mutton cooked with bell peppers, onions, and freshly ground spices in a traditional kadhai (wok).",
+    "price": 349,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/kadhai-mutton.jpg",
+    "link": "/menu/detail/kadhai-mutton",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Mutton", "Kadhai", "Spicy"]
+  },
+  {
+    "id": "mutton-masala",
+    "name": "Mutton Masala",
+    "description": "Tender mutton pieces cooked in a thick, spicy, and flavorful Indian masala gravy.",
+    "price": 349,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/mutton-masala.jpg",
+    "link": "/menu/detail/mutton-masala",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Mutton", "Masala", "Gravy", "Spicy"]
+  },
+  {
+    "id": "hari-mirch-ke-bhuna-ghost",
+    "name": "Hari Mirch Ke Bhuna Ghost",
+    "description": "Mutton slow-cooked with green chilies and spices until dry and intensely flavorful.",
+    "price": 359,
+    "categories": ["all","Non-Veg", "Main Course", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/hari-mirch-ke-bhuna-ghost.jpg",
+    "link": "/menu/detail/hari-mirch-ke-bhuna-ghost",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Main Course", "Mutton", "Spicy", "Chilli", "Dry", "Bhuna"]
+  },
+  {
+    "id": "gobhi-manchurian-gravy",
+    "name": "Gobhi Manchurian Gravy",
+    "description": "Crispy fried cauliflower florets tossed in a spicy and tangy Manchurian gravy.",
+    "price": 179,
+    "categories": ["all","Veg", "Main Course", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/gobhi-manchurian-gravy.jpg",
+    "link": "/menu/detail/gobhi-manchurian-gravy",
+    "tags": ["Veg", "Vegetarian", "Chinese", "Indo-Chinese", "Main Course", "Manchurian", "Cauliflower", "Gravy", "Spicy", "Tangy"]
+  },
+  {
+    "id": "veg-manchurian-gravy",
+    "name": "Veg Manchurian Gravy",
+    "description": "Mixed vegetable dumplings in a flavorful and tangy Manchurian gravy.",
+    "price": 179,
+    "categories": ["all","Veg", "Main Course", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/veg-manchurian-gravy.jpg",
+    "link": "/menu/detail/veg-manchurian-gravy",
+    "tags": ["Veg", "Vegetarian", "Chinese", "Indo-Chinese", "Main Course", "Manchurian", "Gravy", "Spicy", "Tangy"]
+  },
+  {
+    "id": "chilli-paneer-gravy",
+    "name": "Chilli Paneer Gravy",
+    "description": "Paneer cubes tossed in a spicy and tangy Indo-Chinese sauce with bell peppers and onions.",
+    "price": 249,
+    "categories": ["all","Veg", "Main Course", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chilli-paneer-gravy.jpg",
+    "link": "/menu/detail/chilli-paneer-gravy",
+    "tags": ["Veg", "Vegetarian", "Chinese", "Indo-Chinese", "Main Course", "Chilli", "Paneer", "Gravy", "Spicy", "Tangy"]
+  },
+  {
+    "id": "chilli-mushroom-gravy",
+    "name": "Chilli Mushroom Gravy",
+    "description": "Mushrooms tossed in a spicy and tangy Indo-Chinese sauce with bell peppers and onions.",
+    "price": 249,
+    "categories": ["all","Veg", "Main Course", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chilli-mushroom-gravy.jpg",
+    "link": "/menu/detail/chilli-mushroom-gravy",
+    "tags": ["Veg", "Vegetarian", "Chinese", "Indo-Chinese", "Main Course", "Chilli", "Mushroom", "Gravy", "Spicy", "Tangy"]
+  },
+  {
+    "id": "chicken-in-hot-garlic-sauce",
+    "name": "Chicken in Hot Garlic Sauce",
+    "description": "Diced chicken cooked in a fiery and aromatic hot garlic sauce.",
+    "price": 289,
+    "categories": ["all","Non-Veg", "Main Course", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-in-hot-garlic-sauce.jpg",
+    "link": "/menu/detail/chicken-in-hot-garlic-sauce",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Chinese", "Indo-Chinese", "Main Course", "Chicken", "Hot", "Garlic", "Spicy", "Sauce"]
+  },
+  {
+    "id": "chicken-in-kung-pao-sauce",
+    "name": "Chicken in Kung Pao Sauce",
+    "description": "Chicken stir-fried with peanuts, vegetables, and chili peppers in a savory and sweet Kung Pao sauce.",
+    "price": 289,
+    "categories": ["all","Non-Veg", "Main Course", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-in-kung-pao-sauce.jpg",
+    "link": "/menu/detail/chicken-in-kung-pao-sauce",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Chinese", "Indo-Chinese", "Main Course", "Chicken", "Kung Pao", "Spicy", "Sweet", "Savory", "Sauce"]
+  },
+  {
+    "id": "chilli-chicken-gravy",
+    "name": "Chilli Chicken Gravy",
+    "description": "Fried chicken pieces tossed in a spicy and tangy Indo-Chinese sauce with bell peppers and onions.",
+    "price": 289,
+    "categories": ["all","Non-Veg", "Main Course", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chilli-chicken-gravy.jpg",
+    "link": "/menu/detail/chilli-chicken-gravy",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Chinese", "Indo-Chinese", "Main Course", "Chilli", "Chicken", "Gravy", "Spicy", "Tangy"]
+  },
+  {
+    "id": "chicken-65-gravy",
+    "name": "Chicken 65 Gravy",
+    "description": "Spicy, deep-fried chicken pieces tossed in a rich and flavorful gravy.",
+    "price": 289,
+    "categories": ["all","Non-Veg", "Main Course", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-65-gravy.jpg",
+    "link": "/menu/detail/chicken-65-gravy",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Chinese", "Indo-Chinese", "Main Course", "Chicken", "Gravy", "Spicy", "Fried"]
+  },
+  {
+    "id": "fish-manchurian-gravy",
+    "name": "Fish Manchurian Gravy",
+    "description": "Crispy fried fish pieces tossed in a spicy and tangy Manchurian gravy.",
+    "price": 299,
+    "categories": ["all","Non-Veg", "Main Course", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/fish-manchurian-gravy.jpg",
+    "link": "/menu/detail/fish-manchurian-gravy",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Chinese", "Indo-Chinese", "Main Course", "Manchurian", "Fish", "Gravy", "Spicy", "Tangy"]
+  },
+  {
+    "id": "veg-noodles",
+    "name": "Veg Noodles",
+    "description": "Classic stir-fried noodles with mixed vegetables.",
+    "price": 149,
+    "categories": ["all","Veg", "Noodles", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/veg-noodles.jpg",
+    "link": "/menu/detail/veg-noodles",
+    "tags": ["Veg", "Vegetarian", "Noodles", "Chinese", "Stir-fried"]
+  },
+  {
+    "id": "veg-hakka-noodles",
+    "name": "Veg Hakka Noodles",
+    "description": "Thin noodles stir-fried with fresh vegetables and a hint of soy sauce, a popular street food.",
+    "price": 169,
+    "categories": ["all","Veg", "Noodles", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/veg-hakka-noodles.jpg",
+    "link": "/menu/detail/veg-hakka-noodles",
+    "tags": ["Veg", "Vegetarian", "Noodles", "Chinese", "Hakka", "Stir-fried", "Street Food"]
+  },
+  {
+    "id": "veg-garlic-noodles",
+    "name": "Veg Garlic Noodles",
+    "description": "Noodles stir-fried with plenty of garlic and mixed vegetables.",
+    "price": 179,
+    "categories": ["all","Veg", "Noodles", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/veg-garlic-noodles.jpg",
+    "link": "/menu/detail/veg-garlic-noodles",
+    "tags": ["Veg", "Vegetarian", "Noodles", "Chinese", "Garlic", "Stir-fried"]
+  },
+  {
+    "id": "chilli-garlic-noodles",
+    "name": "Chilli Garlic Noodles",
+    "description": "Spicy noodles stir-fried with chili flakes and fresh garlic.",
+    "price": 189,
+    "categories": ["all","Noodles", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chilli-garlic-noodles.jpg",
+    "link": "/menu/detail/chilli-garlic-noodles",
+    "tags": ["Noodles", "Chinese", "Chilli", "Garlic", "Spicy", "Stir-fried"]
+  },
+  {
+    "id": "egg-noodles",
+    "name": "Egg Noodles",
+    "description": "Noodles stir-fried with scrambled eggs and vegetables.",
+    "price": 189,
+    "categories": ["all","Non-Veg", "Noodles", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/egg-noodles.jpg",
+    "link": "/menu/detail/egg-noodles",
+    "tags": ["Non-Veg", "Noodles", "Chinese", "Egg", "Stir-fried"]
+  },
+  {
+    "id": "chicken-noodles",
+    "name": "Chicken Noodles",
+    "description": "Noodles stir-fried with tender chicken pieces and mixed vegetables.",
+    "price": 199,
+    "categories": ["all","Non-Veg", "Noodles", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-noodles.jpg",
+    "link": "/menu/detail/chicken-noodles",
+    "tags": ["Non-Veg", "Noodles", "Chinese", "Chicken", "Stir-fried"]
+  },
+  {
+    "id": "mexican-noodles",
+    "name": "Mexican Noodles",
+    "description": "Noodles with a Mexican twist, featuring a blend of spices and flavors.",
+    "price": 199,
+    "categories": ["all","Noodles", "Mexican"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/mexican-noodles.jpg",
+    "link": "/menu/detail/mexican-noodles",
+    "tags": ["Noodles", "Mexican", "Spicy", "Flavorful"]
+  },
+  {
+    "id": "paneer-noodles",
+    "name": "Paneer Noodles",
+    "description": "Noodles stir-fried with cubes of paneer and mixed vegetables.",
+    "price": 209,
+    "categories": ["all","Veg", "Noodles", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/paneer-noodles.jpg",
+    "link": "/menu/detail/paneer-noodles",
+    "tags": ["Veg", "Vegetarian", "Noodles", "Chinese", "Paneer", "Stir-fried"]
+  },
+  {
+    "id": "veg-manchurian-with-noodles",
+    "name": "Veg Manchurian with Noodles",
+    "description": "A combination of Veg Manchurian balls served with stir-fried noodles, a complete meal.",
+    "price": 219,
+    "categories": ["all","Veg", "Noodles", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/veg-manchurian-with-noodles.jpg",
+    "link": "/menu/detail/veg-manchurian-with-noodles",
+    "tags": ["Veg", "Vegetarian", "Noodles", "Chinese", "Manchurian", "Complete Meal"]
+  },
+  {
+    "id": "curd-rice",
+    "name": "Curd Rice",
+    "description": "Comforting South Indian dish made with rice and yogurt, tempered with mustard seeds and curry leaves.",
+    "price": 109,
+    "categories": ["all","Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/curd-rice.jpg",
+    "link": "/menu/detail/curd-rice",
+    "tags": ["Veg", "Vegetarian", "Rice", "Indian", "South Indian", "Comfort Food", "Yogurt"]
+  },
+  {
+    "id": "plain-rice",
+    "name": "Plain Rice",
+    "description": "Steamed plain rice, perfect accompaniment to any curry or gravy.",
+    "price": 149,
+    "categories": ["all","Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/plain-rice.jpg",
+    "link": "/menu/detail/plain-rice",
+    "tags": ["Veg", "Vegetarian", "Rice", "Indian", "Side Dish", "Comfort Food"]
+  },
+  {
+    "id": "veg-fried-rice",
+    "name": "Veg Fried Rice",
+    "description": "Wok-tossed rice with mixed vegetables and a hint of soy sauce.",
+    "price": 159,
+    "categories": ["all","Veg", "Rice", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/veg-fried-rice.jpg",
+    "link": "/menu/detail/veg-fried-rice",
+    "tags": ["Veg", "Vegetarian", "Rice", "Chinese", "Fried Rice", "Wok-tossed"]
+  },
+  {
+    "id": "egg-curry-with-rice",
+    "name": "Egg Curry with Rice",
+    "description": "Boiled eggs simmered in a rich curry, served with plain rice.",
+    "price": 179,
+    "categories": ["all","Non-Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/egg-curry-with-rice.jpg",
+    "link": "/menu/detail/egg-curry-with-rice",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Rice", "Indian", "Egg", "Curry", "Complete Meal"]
+  },
+  {
+    "id": "jeera-rice",
+    "name": "Jeera Rice",
+    "description": "Fragrant basmati rice flavored with roasted cumin seeds.",
+    "price": 179,
+    "categories": ["all","Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/jeera-rice.jpg",
+    "link": "/menu/detail/jeera-rice",
+    "tags": ["Veg", "Vegetarian", "Rice", "Indian", "Jeera", "Basmati"]
+  },
+  {
+    "id": "garlic-fried-rice",
+    "name": "Garlic Fried Rice",
+    "description": "Wok-tossed rice infused with aromatic fried garlic and mixed vegetables.",
+    "price": 179,
+    "categories": ["all","Veg", "Rice", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/garlic-fried-rice.jpg",
+    "link": "/menu/detail/garlic-fried-rice",
+    "tags": ["Veg", "Vegetarian", "Rice", "Chinese", "Fried Rice", "Garlic", "Wok-tossed"]
+  },
+  {
+    "id": "chilli-garlic-fried-rice",
+    "name": "Chilli Garlic Fried Rice",
+    "description": "Spicy fried rice with a kick of chili and the distinct flavor of garlic.",
+    "price": 189,
+    "categories": ["all","Rice", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chilli-garlic-fried-rice.jpg",
+    "link": "/menu/detail/chilli-garlic-fried-rice",
+    "tags": ["Rice", "Chinese", "Fried Rice", "Chilli", "Garlic", "Spicy"]
+  },
+  {
+    "id": "paneer-fried-rice",
+    "name": "Paneer Fried Rice",
+    "description": "Fried rice with tender cubes of paneer and mixed vegetables.",
+    "price": 199,
+    "categories": ["all","Veg", "Rice", "Chinese"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/paneer-fried-rice.jpg",
+    "link": "/menu/detail/paneer-fried-rice",
+    "tags": ["Veg", "Vegetarian", "Rice", "Chinese", "Fried Rice", "Paneer"]
+  },
+  {
+    "id": "veg-pulao",
+    "name": "Veg Pulao",
+    "description": "Aromatic rice dish cooked with mixed vegetables and whole spices.",
+    "price": 219,
+    "categories": ["all","Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/veg-pulao.jpg",
+    "link": "/menu/detail/veg-pulao",
+    "tags": ["Veg", "Vegetarian", "Rice", "Indian", "Pulao", "Aromatic", "Spicy"]
+  },
+  {
+    "id": "matar-pulao",
+    "name": "Matar Pulao",
+    "description": "Fragrant rice dish cooked with green peas and mild spices.",
+    "price": 229,
+    "categories": ["all","Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/matar-pulao.jpg",
+    "link": "/menu/detail/matar-pulao",
+    "tags": ["Veg", "Vegetarian", "Rice", "Indian", "Pulao", "Peas", "Fragrant"]
+  },
+  {
+    "id": "veg-biryani",
+    "name": "Veg Biryani",
+    "description": "A flavorful and aromatic rice dish cooked with mixed vegetables and fragrant basmati rice, layered with spices.",
+    "price": 249,
+    "categories": ["all","Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/veg-biryani.jpg",
+    "link": "/menu/detail/veg-biryani",
+    "tags": ["Veg", "Vegetarian", "Rice", "Indian", "Biryani", "Aromatic", "Spicy"]
+  },
+  {
+    "id": "chicken-curry-with-rice",
+    "name": "Chicken Curry with Rice",
+    "description": "Homestyle chicken curry served with plain rice, a satisfying meal.",
+    "price": 249,
+    "categories": ["all","Non-Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-curry-with-rice.jpg",
+    "link": "/menu/detail/chicken-curry-with-rice",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Rice", "Indian", "Chicken", "Curry", "Complete Meal", "Homestyle"]
+  },
+  {
+    "id": "fish-curry-with-rice",
+    "name": "Fish Curry with Rice",
+    "description": "Tangy and spicy fish curry served with plain rice.",
+    "price": 249,
+    "categories": ["all","Non-Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/fish-curry-with-rice.jpg",
+    "link": "/menu/detail/fish-curry-with-rice",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Rice", "Indian", "Fish", "Curry", "Tangy", "Spicy", "Complete Meal"]
+  },
+  {
+    "id": "egg-biryani",
+    "name": "Egg Biryani",
+    "description": "Fragrant basmati rice layered with boiled eggs and aromatic spices, cooked to perfection.",
+    "price": 259,
+    "categories": ["all","Non-Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/egg-biryani.jpg",
+    "link": "/menu/detail/egg-biryani",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Rice", "Indian", "Biryani", "Egg", "Aromatic", "Spicy"]
+  },
+  {
+    "id": "mutton-curry-with-rice",
+    "name": "Mutton Curry with Rice",
+    "description": "Rich and spicy mutton curry served with plain rice.",
+    "price": 289,
+    "categories": ["all","Non-Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/mutton-curry-with-rice.jpg",
+    "link": "/menu/detail/mutton-curry-with-rice",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Rice", "Indian", "Mutton", "Curry", "Spicy", "Complete Meal"]
+  },
+  {
+    "id": "chicken-biryani",
+    "name": "Chicken Biryani",
+    "description": "A classic Indian dish with tender chicken pieces and aromatic basmati rice, layered and slow-cooked with spices.",
+    "price": 289,
+    "categories": ["all","Non-Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/chicken-biryani.jpg",
+    "link": "/menu/detail/chicken-biryani",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Rice", "Indian", "Biryani", "Chicken", "Aromatic", "Spicy"]
+  },
+  {
+    "id": "mutton-biryani",
+    "name": "Mutton Biryani",
+    "description": "Succulent mutton pieces layered with fragrant basmati rice and traditional spices, a truly royal dish.",
+    "price": 319,
+    "categories": ["all","Non-Veg", "Rice", "Indian"],
+    "image": "https://ik.imagekit.io/edvqduwc5k/captain-resturant/mutton-biryani.jpg",
+    "link": "/menu/detail/mutton-biryani",
+    "tags": ["Non-Veg", "Non-Vegetarian", "Indian", "Biryani", "Mutton", "Fragrant", "Spicy", "Royal"]
+  }
+]
