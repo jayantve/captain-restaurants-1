@@ -1,16 +1,23 @@
 'use client';
-
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import productdata from '@/Data/productData.json'
 
-interface MenuItemDetailProps {
-  itemId: string;
+export default async function Page({ params }) {
+    const { slug } = await params
+    return (
+        <>
+            <MenuItemDetail itemId={slug} />
+        </>
+    )
 }
 
-export default function MenuItemDetail({ itemId }: MenuItemDetailProps) {
-  const menuItems = data
 
-  const item = menuItems[itemId];
+
+function MenuItemDetail({ itemId }) {
+  
+
+  const item = productdata[itemId];
   
   if (!item) {
     notFound();
@@ -18,7 +25,6 @@ export default function MenuItemDetail({ itemId }: MenuItemDetailProps) {
 
   return (
     <div className="min-h-screen bg-white">
-      <Header />
       
       {/* Hero Section */}
       <section className="py-12 bg-gray-50">
@@ -143,8 +149,6 @@ export default function MenuItemDetail({ itemId }: MenuItemDetailProps) {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }
